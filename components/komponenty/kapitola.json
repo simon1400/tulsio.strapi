@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_komponenty_kapitolas",
+  "info": {
+    "name": "kapitola",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "galery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "komponenty.tlacitko"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_komponenty_tlacitkos",
+  "info": {
+    "name": "tlacitko",
+    "icon": "walking",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

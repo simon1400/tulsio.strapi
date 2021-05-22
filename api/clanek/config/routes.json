@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/claneks",
+      "handler": "clanek.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/claneks/count",
+      "handler": "clanek.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/claneks/:id",
+      "handler": "clanek.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/claneks",
+      "handler": "clanek.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/claneks/:id",
+      "handler": "clanek.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/claneks/:id",
+      "handler": "clanek.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

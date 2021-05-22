@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigace_nova",
+  "info": {
+    "name": "navigace",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "komponenty.tlacitko"
+    }
+  }
+}

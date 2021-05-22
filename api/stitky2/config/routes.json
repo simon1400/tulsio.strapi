@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/stitky-2-s",
+      "handler": "stitky2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stitky-2-s/count",
+      "handler": "stitky2.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/stitky-2-s/:id",
+      "handler": "stitky2.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/stitky-2-s",
+      "handler": "stitky2.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/stitky-2-s/:id",
+      "handler": "stitky2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/stitky-2-s/:id",
+      "handler": "stitky2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

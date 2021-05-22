@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/navigace-nova",
+      "handler": "navigace-nova.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/navigace-nova",
+      "handler": "navigace-nova.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/navigace-nova",
+      "handler": "navigace-nova.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

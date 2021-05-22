@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kategories",
+  "info": {
+    "name": "Kategorie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "komponenty.meta"
+    },
+    "articles": {
+      "via": "categories",
+      "collection": "clanek"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "labels": {
+      "collection": "stitky2"
+    }
+  }
+}
