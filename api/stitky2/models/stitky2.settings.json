@@ -36,17 +36,18 @@
       },
       "component": "komponenty.meta"
     },
+    "articles": {
+      "via": "labels",
+      "collection": "clanek"
+    },
     "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
-    },
-    "articles": {
-      "via": "labels",
-      "collection": "clanek"
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

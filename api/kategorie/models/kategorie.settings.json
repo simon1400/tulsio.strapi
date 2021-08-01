@@ -40,18 +40,17 @@
       "via": "categories",
       "collection": "clanek"
     },
+    "labels": {
+      "collection": "stitky2"
+    },
     "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string",
-      "required": false,
-      "unique": false
-    },
-    "labels": {
-      "collection": "stitky2"
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
