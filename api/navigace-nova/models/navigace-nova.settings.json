@@ -12,10 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "item": {
+    "footer_nav_1": {
       "type": "component",
-      "repeatable": true,
-      "component": "komponenty.tlacitko"
+      "repeatable": false,
+      "component": "navigation.navigation-block"
+    },
+    "footer_nav_2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigation-block"
+    },
+    "footer_nav_3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigation-block"
+    },
+    "top_nav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigation-block"
     }
   }
 }

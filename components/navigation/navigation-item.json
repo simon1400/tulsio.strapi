@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navigation_navigation_items",
+  "info": {
+    "name": "navigation_item",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
