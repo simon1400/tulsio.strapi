@@ -31,6 +31,11 @@
       "type": "component",
       "repeatable": false,
       "component": "navigation.navigation-block"
+    },
+    "soc_nav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "navigation.navigation-block"
     }
   }
 }
