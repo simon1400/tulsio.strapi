@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_komponenty_short_articles",
+  "info": {
+    "name": "Short_article",
+    "icon": "equals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "short_text": {
+      "type": "text",
+      "required": true
+    },
+    "article": {
+      "model": "clanek"
+    }
+  }
+}
